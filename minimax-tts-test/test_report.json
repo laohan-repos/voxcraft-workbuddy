@@ -1,0 +1,102 @@
+[
+  {
+    "case": "模型 speech-2.6-hd",
+    "pass": true,
+    "detail": "耗时 1.02s | 音频 5400ms | 88116 bytes | mp3/32000Hz"
+  },
+  {
+    "case": "模型 speech-2.6-turbo",
+    "pass": true,
+    "detail": "耗时 1.07s | 音频 5112ms | 83508 bytes | mp3/32000Hz"
+  },
+  {
+    "case": "模型 speech-02-hd",
+    "pass": true,
+    "detail": "耗时 1.68s | 音频 5220ms | 85236 bytes | mp3/32000Hz"
+  },
+  {
+    "case": "模型 speech-02-turbo",
+    "pass": true,
+    "detail": "耗时 1.16s | 音频 5256ms | 85812 bytes | mp3/32000Hz"
+  },
+  {
+    "case": "模型 speech-01-turbo",
+    "pass": true,
+    "detail": "耗时 1.04s | 音频 5076ms | 82932 bytes | mp3/32000Hz"
+  },
+  {
+    "case": "音色 male-qn-qingse (青涩青年音色)",
+    "pass": true,
+    "detail": "合成成功，耗时 0.69s"
+  },
+  {
+    "case": "音色 female-shaonv (少女音色)",
+    "pass": true,
+    "detail": "合成成功，耗时 0.85s"
+  },
+  {
+    "case": "音色 male-qn-jingying (精英青年音色)",
+    "pass": true,
+    "detail": "合成成功，耗时 0.85s"
+  },
+  {
+    "case": "音色 female-yujie (御姐音色)",
+    "pass": true,
+    "detail": "合成成功，耗时 0.86s"
+  },
+  {
+    "case": "音色 Chinese (Mandarin)_Warm_Girl (温暖女孩)",
+    "pass": true,
+    "detail": "合成成功，耗时 0.84s"
+  },
+  {
+    "case": "情绪 happy",
+    "pass": true,
+    "detail": "合成成功，耗时 0.86s"
+  },
+  {
+    "case": "情绪 sad",
+    "pass": true,
+    "detail": "合成成功，耗时 0.92s"
+  },
+  {
+    "case": "情绪 angry",
+    "pass": true,
+    "detail": "合成成功，耗时 0.92s"
+  },
+  {
+    "case": "情绪 neutral",
+    "pass": true,
+    "detail": "合成成功，耗时 0.92s"
+  },
+  {
+    "case": "语速 0.7",
+    "pass": true,
+    "detail": "音频时长 5004ms（同文本，时长随语速变化）"
+  },
+  {
+    "case": "语速 1.0",
+    "pass": true,
+    "detail": "音频时长 3384ms（同文本，时长随语速变化）"
+  },
+  {
+    "case": "语速 1.5",
+    "pass": true,
+    "detail": "音频时长 2448ms（同文本，时长随语速变化）"
+  },
+  {
+    "case": "长文本 (360字)",
+    "pass": true,
+    "detail": "耗时 2.55s | 音频 78048ms (78.0s)"
+  },
+  {
+    "case": "非法音色",
+    "pass": true,
+    "detail": "如期返回业务错误 -> {'status_code': 2054, 'status_msg': 'voice id not exist'}"
+  },
+  {
+    "case": "错误 API Key",
+    "pass": true,
+    "detail": "如期被拒绝 -> {'status_code': 1004, 'status_msg': \"login fail: Please carry the API secret key in the 'Authorization' field of the request header\"}"
+  }
+]
